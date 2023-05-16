@@ -1,0 +1,60 @@
+禅道
+http://192.168.1.107:8080/zentao/my/
+jinzheng
+jinzheng2023
+
+企业邮箱
+https://exmail.qq.com/cgi-bin/frame_html?sid=-75KwNUKGJ2Txw5q,7&sign_type=&r=e466c2a17695c16c72d81499bc689049
+jinzheng@meta-bounds.com
+Jz111111
+
+公司服务器
+http://192.168.1.132:5000
+用户名：金争
+临时密码：j.111111
+
+Mysql：
+Aa·1111
+
+
+
+git
+3226097751@qq.com
+jin0zheng
+jz@111111
+gitlab
+jinzheng@meta-bounds.com
+jz.111111
+
+http://192.168.1.249/home/index.html#hashHome
+http://192.168.1.132:5000/#/signin
+https://ai.usesless.com/chat/1682327060422
+https://chat.aidutu.cn/#/chat/1683690967622
+https://y.qq.com/n/ryqq/player
+http://192.168.1.132:5000/fsdownload/OHn7YwqV6/%E8%BD%AC%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3
+
+
+固件路径
+/技术中心/0-共享文件/软件部-share/1.项目/4.MetaGlass/MG10030000_0.1.23_20230403174843/FW/flash/MG10030000_V0.1.23_20230403_FLASH
+
+软件路径
+/技术中心/0-共享文件/软件部-share/1.项目/2.梧桐山/Android
+
+
+
+conda
+	conda env list
+	conda create -n pytorch_gpu python=3.10
+	conda activate pytorch_gpu
+
+
+pytorch:
+	查看cuda
+		nvcc -V
+		nvidia-smi
+	python
+	import torch
+	print(torch.__version__)
+	print(torch.cuda.is_available())#cuda是否可用
+	torch.cuda.device_count()#返回GPU的数量
+	torch.cuda.get_device_name(0)#返回gpu名字，设备索引默认从0开始

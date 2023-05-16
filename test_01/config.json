@@ -1,0 +1,16 @@
+{
+  "phones": ["phone1","phone2"],
+  "phone1": {
+    "sn": "123",
+    "other": {
+      "name": "redmi",
+      "size": ""
+    }
+  },"phone2": {
+    "sn": "123",
+    "other": {
+      "name": "redmi",
+      "size": ""
+    }
+  }
+}
